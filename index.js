@@ -19,6 +19,9 @@ classifier.train("supervised", config).then((res) => {
 
 app.use(cors());
 
+app.use(express.static(__dirname + '/public'));
+app.use(express.static('public'));
+
 app.get("/", (req, res) => {
   res.sendfile("index.html");
 });
