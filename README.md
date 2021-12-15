@@ -11,7 +11,7 @@ User write food description and press submit, then will display in the server la
 Download [Node installer](https://nodejs.org/en/download/) to install both Node.js and npm on your system. <br /><br />
 After download the requiremnts follow the steps to install Node.js and npm: <br />
 ```
-1. $ install npm 
+1. $ npm install 
 2. $ npm init -y 
 3. $ npm install node-fasttext --save 
 4. $ npm install express --save 
